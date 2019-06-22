@@ -106,7 +106,6 @@ class ClickyGame extends Component {
   }
 
   // renders score to the navbar.
-  // passes the randomized state.allPlayers array to Container to create a player component for each image.
   // passes the this.checkClicked down to container to pass to each player component to be used for the click event.
   render() {
     const state = this.state;
