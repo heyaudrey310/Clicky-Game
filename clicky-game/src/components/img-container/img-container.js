@@ -4,8 +4,7 @@ import players from '../players';
 
 // main container for each player component
 // loops through each index in props.players, which contains an array of player images
-// to create a new player component for each image
-// attaches the passed down clickEvent function to each player component
+
 const Container = props => (
   // loops through
   <div

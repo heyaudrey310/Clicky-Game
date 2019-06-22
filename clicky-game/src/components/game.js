@@ -3,7 +3,7 @@ import images from '../images';
 import Navbar from './navbar';
 import Container from './img-container';
 import Banner from './banner';
-import Footer from './Footer';
+
 
 
 class ClickyGame extends Component {
@@ -124,7 +124,7 @@ class ClickyGame extends Component {
           players={state.allPlayers}
           clickEvent={this.clickEvent}
         />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
