@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import images from "../images";
-import Navbar from './Navbar';
-import Container from './Container';
-import Banner from './Banner';
+import images from '../images';
+import Navbar from './navbar';
+import Container from './img-container';
+import Banner from './banner';
 import Footer from './Footer';
 
 
@@ -28,12 +28,12 @@ class ClickyGame extends Component {
   };
 
   // binds the current this context to checkClicked to have access to the current state
-  // when passed down to the Character component
+  // when passed down to the Players component
   clickEvent = this.checkClicked.bind(this);
 
   // used to shuffle the array of images when the DOM loads, and when an image is clicked
   shuffleArray() {
-    // creates a copy of the current characters array to modify it by value, and not by reference
+    // creates a copy of the current players array to modify it by value, and not by reference
     const newArr = images.slice();
 
     // will store the shuffled array
@@ -106,8 +106,8 @@ class ClickyGame extends Component {
   }
 
   // renders score to the navbar.
-  // passes the randomized state.allPlayers array to Container to create a Character component for each image.
-  // passes the this.checkClicked down to container to pass to each Character component to be used for the click event.
+  // passes the randomized state.allPlayers array to Container to create a player component for each image.
+  // passes the this.checkClicked down to container to pass to each player component to be used for the click event.
   render() {
     const state = this.state;
     return (
