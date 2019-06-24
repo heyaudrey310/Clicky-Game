@@ -35,7 +35,7 @@ class ClickyGame extends Component {
   //used to shuffle the array of images when the DOM loads, and when an image is clicked
   shuffleArray() {
     // creates a copy of the current players array to modify it by value, and not by reference
-    const newArr = images.slice();
+    const newArr = data.slice();
 
     // will store the shuffled array
     const shuffleArr = [];
