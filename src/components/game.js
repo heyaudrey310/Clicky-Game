@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import images from '../images';
-import Navbar from './navbar';
-import Container from './img-container';
-import Banner from './banner';
+// import images from '../images';
+import Navbar from './navbar/navbar';
+import Container from './img-container/img-container';
+import Banner from './banner/banner';
+import data from '../../src/assets/players.json';
 
 
 
@@ -31,7 +32,7 @@ class ClickyGame extends Component {
   // when passed down to the Players component
   clickEvent = this.checkClicked.bind(this);
 
-  // used to shuffle the array of images when the DOM loads, and when an image is clicked
+  //used to shuffle the array of images when the DOM loads, and when an image is clicked
   shuffleArray() {
     // creates a copy of the current players array to modify it by value, and not by reference
     const newArr = images.slice();
@@ -112,15 +113,15 @@ class ClickyGame extends Component {
     return (
       <div>
         <Navbar
-          score={state.score}
-          highScore={state.highScore}
-          navMessage={state.navMessage}
-          navMsgColor={state.navMsgColor}
+          score={this.state.score}
+          highScore={this.state.highScore}
+          navMessage={this.state.navMessage}
+          navMsgColor={this.state.navMsgColor}
         />
         <Banner />
         <Container
-          shake={state.shake}
-          players={state.allPlayers}
+          shake={this.state.shake}
+          players={this.state.allPlayers}
           clickEvent={this.clickEvent}
         />
         {/* <Footer /> */}
