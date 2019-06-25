@@ -1,42 +1,42 @@
 [
     {
       "id": 1,
-      "image": "/assets/images/anthony.jpeg",
+      "image": "/assets/images/anthony.jpg",
       "clicked": false
     },
     {
       "id": 2,
-      "image": "/assets/images/ben.jpeg",
+      "image": "/assets/images/ben.jpg",
       "clicked": false
     },
     {
       "id": 3,
-      "image": "/assets/images/giannis.jpeg",
+      "image": "assets/images/giannis.jpg",
       "clicked": false
     },
     {
       "id": 4,
-      "image": "/assets/images/james.jpeg",
+      "image": "/assets/images/james.jpg",
       "clicked": false
     },
     {
       "id": 5,
-      "image": "/assets/images/joel.jpeg",
+      "image": "/assets/images/joel.jpg",
       "clicked": false
     },
     {
       "id": 6,
-      "image": "/assets/images/kawhi.jpeg",
+      "image": "/assets/images/kawhi.jpg",
       "clicked": false
     },
     {
       "id": 7,
-      "image": "/assets/images/kd.jpeg",
+      "image": "/assets/images/kd.jpg",
       "clicked": false
     },
     {
       "id": 8,
-      "image": "/assets/images/klay2.jpeg",
+      "image": "/assets/images/klay2.jpg",
       "clicked": false
     },
     {
@@ -46,17 +46,17 @@
     },
     {
       "id": 10,
-      "image": "/assets/images/luka.jpeg",
+      "image": "/assets/images/luka.jpg",
       "clicked": false
     },
     {
       "id": 11,
-      "image": "/assets/images/russell.jpeg",
+      "image": "/assets/images/russell.jpg",
       "clicked": false
     },
     {
       "id": 12,
-      "image": "/assets/images/stephen.jpeg",
+      "image": "/assets/images/stephen.jpg",
       "clicked": false
     }
   ]

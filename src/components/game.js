@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-// import images from '../images';
+//  import images from '../images';
 import Navbar from './navbar/navbar';
 import Container from './img-container/img-container';
 import Banner from './banner/banner';
 import data from '../../src/assets/players.json';
+// import Footer from './footer/footer';
 
 
 
@@ -42,7 +43,6 @@ class ClickyGame extends Component {
 
     // each loop through an index gets spliced from newArr, reducing its length
     // gets a random index based off the current length of newArr
-    // splices the value from newArr, and pushes it to shuffleArr
     while (newArr.length > 0) {
       shuffleArr.push(newArr.splice(Math.floor(Math.random() * newArr.length), 1)[0]);
     }
@@ -115,8 +115,8 @@ class ClickyGame extends Component {
         <Navbar
           score={this.state.score}
           highScore={this.state.highScore}
-          navMessage={this.state.navMessage}
-          navMsgColor={this.state.navMsgColor}
+          navMessage={state.navMessage}
+          navMsgColor={state.navMsgColor}
         />
         <Banner />
         <Container

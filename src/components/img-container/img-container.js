@@ -1,6 +1,6 @@
 import React from 'react';
 import './img-container.css';
-import players from '../players';
+import Players from '../players';
 
 // main container for each player component
 // loops through each index in props.players, which contains an array of player images
@@ -14,7 +14,14 @@ const Container = props => (
         : 'container d-flex flex-wrap justify-content-center'
     }
   >
-    {props.players.map((a, i) => <players name={a} key={i} clickEvent={props.clickEvent} />)}
+    {props.players.map((a, i) => {
+      // return <div> hello {a.image}</div>
+
+      // <div className="card" onClick={e => props.clickEvent(e.target.src)}>
+       //<img className="card-img-top card-height" src={props.player.name} alt="" />
+       //</div>
+      return <Players player={a.image} key={i} clickEvent={props.clickEvent} />
+    })}
   </div>
 );
 

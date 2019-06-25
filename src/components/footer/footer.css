@@ -1,0 +1,18 @@
+.footer {
+    background-color: #bd1919;
+    -webkit-box-shadow:  0 3px 6px #f1e1e1(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow:  0 3px 6px #f1e1e1(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: white;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    overflow: auto;
+  }
+.footer>.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:  #bd1919;;
+    padding: 8px;
+    font-weight: 600;
+}

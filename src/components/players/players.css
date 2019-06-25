@@ -1,11 +1,15 @@
 .card {
-  border: 3px solid #bd1919;
+  border: 5px solid #bd1919;
   box-shadow: 0 3px 6px #f1e1e1(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   cursor: pointer;
-  height: 170px;
-  margin: 15px;
+  height: 150px;
+  margin: 10px;
   overflow: hidden;
-  width: 170px;
+  width: 250px;
+  float: left;
+  display: flex;
+  
+  
 }
 
 .card:hover {
