@@ -1,13 +1,15 @@
 .banner {
     height: 370px;
-    margin: 0 !important;
-    padding: 0 !important;
-    color: white;
-    font-size: 18px;
+    /* margin-top: 500; */
+    padding: 0; 
+  }
+  h1, h2  {
+    color: black;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 0px;
+    background:url('/public/jordan-bg.jpg');
+   
   }
   
-  @media (min-width: 576px) {
-    .banner {
-      font-size: calc(10px + 12 * (100vw - 320px) / 800);
-    }
-  }
+  

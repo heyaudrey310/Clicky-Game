@@ -15,8 +15,6 @@ const Container = props => (
     }
   >
     {props.players.map((a, i) => {
-      // return <div> hello {a.image}</div>
-
       // <div className="card" onClick={e => props.clickEvent(e.target.src)}>
        //<img className="card-img-top card-height" src={props.player.name} alt="" />
        //</div>
